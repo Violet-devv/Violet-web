@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faturzz | Animasi Kelas 10</title>
+    
+    <!-- FONT & ICON -->
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- BAGIAN ATAS (HERO) -->
+    <header class="hero">
+        <!-- Efek Lampu Latar -->
+        <div class="glow-bg"></div>
+
+        <div class="container">
+            <!-- KARTU KACA (CANVAS) -->
+            <div class="glass-card">
+                <div class="welcome-badge">✨ Welcome to My Portofolio ✨</div>
+                
+                <!-- FOTO PROFIL: Ganti link src di bawah dengan link foto lu -->
+
+
+
+<img src="https://i.ibb.co.com/Q4cFBGq/1292245f15d810c586571db05022a217.jpg" alt="Foto Faturzz" class="profile-pic">
+
+
+                <h1>Faturzz <span class="dot">.</span></h1>
+                <h2 class="typing-text"><span id="typing"></span><span class="cursor">|</span></h2>
+                
+                <p class="description">
+                    Siswa kelas 10 yang Ga punya bakat😹
+                </p>
+
+                <div class="social-links" style="margin-bottom: 30px;">
+                    <a href="#" target="_blank" title="YouTube"><i class="fab fa-youtube"></i></a>
+                    <a href="#" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" target="_blank" title="TikTok"><i class="fab fa-tiktok"></i></a>
+                    <a href="#" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                </div>
+
+                <!-- TOMBOL MASUK -->
+                <button id="enter-btn" class="btn-masuk">Masuk ke Portofolio <i class="fas fa-arrow-down"></i></button>
+            </div>
+        </div>
+    </header>
+
+    <!-- BUNGKUS SEMUA KONTEN BAWAH DENGAN DIV INI (Disembunyiin dulu) -->
+    <div id="main-content" class="hidden-content">
+        
+        <!-- BAGIAN TENTANG SAYA (ABOUT) -->
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section-title">Tentang Saya</h2>
+                
+                <div class="about-grid">
+                    <!-- Kotak 1: Biodata & Organisasi -->
+                    <div class="about-card">
+                        <h3><i class="fas fa-user-graduate"></i> Biodata</h3>
+                        <ul class="info-list">
+                            <li><strong>Nama:</strong> Faturzz</li>
+                            <li><strong>Sekolah:</strong> SMK Widya Mandala Tambak</li>
+                            <li><strong>Kelas:</strong> 10 Animasi</li>
+                        </ul>
+                        
+                        <h3 style="margin-top: 25px;"><i class="fas fa-users"></i> Organisasi</h3>
+                        <ul class="info-list">
+                            <li><strong>OSIS 2026-2027</strong></li>
+                            <li><strong>Seksi Bidang 6:</strong> Teknologi Informasi & Komunikasi (TIK)</li>
+                        </ul>
+                    </div>
+
+                    <!-- Kotak 2: Hobi & Bakat -->
+                    <div class="about-card">
+                        <h3><i class="fas fa-heart"></i> Hobi</h3>
+                        <ul class="info-list">
+                            <li>Menggambar Karakter (Character Design)</li>
+                            <li>Menonton Anime & Film Animasi</li>
+                            <li>Ngoding kalo lagi mood </li>
+                        </ul>
+
+                        <h3 style="margin-top: 25px;"><i class="fas fa-star"></i> Bakat & Keahlian</h3>
+                        <ul class="info-list">
+                            <li><strong>2D Animation:</strong> Dasar pergerakan (Walk cycle, dll)</li>
+                            <li><strong>Programming:</strong> Node.js & HTML/CSS (Pemula)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- BAGIAN PROYEK -->
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2 class="section-title">Karya & Eksperimen</h2>
+                
+                <div class="grid">
+                    <!-- KARTU PROYEK 1 -->
+                    <div class="card">
+                        <div class="card-icon"><i class="fas fa-film"></i></div>
+                        <h3>Tugas Animasi 2D</h3>
+                        <p>Proyek animasi <i>Bouncing Ball</i> dan <i>Walk Cycle</i> sebagai dasar pemahaman prinsip animasi di kelas 10.</p>
+                        <div class="tags">
+                            <span>2D Animation</span>
+                            <span>Dasar Animasi</span>
+                        </div>
+                    </div>
+
+                    <!-- KARTU PROYEK 2 -->
+                    <div class="card">
+                        <div class="card-icon"><i class="fas fa-magic"></i></div>
+                        <h3>Motion Graphic Reels</h3>
+                        <p>Eksperimen pribadi membuat animasi transisi dinamis dan <i>motion graphic</i> untuk konten media sosial.</p>
+                        <div class="tags">
+                            <span>Motion Graphic</span>
+                            <span>Editing</span>
+                        </div>
+                    </div>
+
+                    <!-- KARTU PROYEK 3 -->
+                    <div class="card">
+                        <div class="card-icon"><i class="fas fa-robot"></i></div>
+                        <h3>Hyura Bot v3.0</h3>
+                        <p>Proyek <i>side-quest</i>: Belajar logika pemrograman dengan membuat Bot WhatsApp otomatis pakai Node.js di Android.</p>
+                        <div class="tags">
+                            <span>Node.js</span>
+                            <span>Termux</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FOOTER -->
+        <footer>
+            <p>&copy; 2026 Faturzz. Dibuat dengan ☕ dan tugas sekolah.</p>
+        </footer>
+
+       </div> <!-- TUTUP DIV MAIN-CONTENT -->
+
+    <!-- TOMBOL KEMBALI KE ATAS (Floating) -->
+    <button id="back-to-top" title="Kembali ke Awal"><i class="fas fa-arrow-up"></i></button>
+
+    <script src="script.js"></script>
+</body>
+</html>
